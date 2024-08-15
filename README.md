@@ -38,5 +38,5 @@ Sec-Fetch-Mode: navigate
 Sec-Fetch-Site: same-origin
 Sec-Fetch-User: ?1
 Priority: u=0, i
-
+`
 fromdate=<script>alert(1)</script>&todate=1111-11-11&submit=
